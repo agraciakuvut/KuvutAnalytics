@@ -1,0 +1,29 @@
+{
+  "name": "agraciakuvut/kuvutanalytics",
+  "type": "library",
+  "description": "PHP Wrapper for the Google Analytics API",
+  "homepage": "https://github.com/agraciakuvut/KuvutAnalytics",
+  "keywords": [
+    "kuvut analytics",
+    "analytics"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Andrés Gracia",
+      "email": "agracia@kuvut.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "agraciakuvut\\": "src/Analytics"
+    }
+  },
+  "require": {
+    "php": ">=7.0.0",
+    "google/apiclient": "2.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  }
+}
