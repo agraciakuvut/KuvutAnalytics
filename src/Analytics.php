@@ -1,6 +1,6 @@
 <?php
 
-namespace Kuvut;
+namespace agraciakuvut;
 
 class Analytics
 {

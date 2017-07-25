@@ -2,7 +2,7 @@
 require '../vendor/autoload.php';
 require '../src/Analytics.php';
 
-$a = new \Kuvut\Analytics('YOUR-ACCOUNT-ID', 'YOUR-PROPERTY-ID',"Hello Analytics Reporting",'YOUR-CONFIG-FILE');
+$a = new \agraciakuvut\Analytics('YOUR-ACCOUNT-ID', 'YOUR-PROPERTY-ID',"Hello Analytics Reporting",'YOUR-CONFIG-FILE');
 
 echo '<h1> Data 7 days </h1>';
 echo 'Sessions: ' . $a->getSessions('7daysAgo','today') . '<br>';
