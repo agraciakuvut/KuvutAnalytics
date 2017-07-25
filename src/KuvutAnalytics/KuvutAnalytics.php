@@ -2,7 +2,7 @@
 
 namespace agraciakuvut;
 
-class Analytics
+class KuvutAnalytics
 {
     /** @var   \Google_Service_Analytics */
     protected $ga;
