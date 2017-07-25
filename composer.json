@@ -16,7 +16,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "agraciakuvut\\": "src/Analytics"
+      "agraciakuvut\\": "src/KuvutAnalytics"
     }
   },
   "require": {
